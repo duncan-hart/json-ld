@@ -1,0 +1,96 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://duncanhart.com/#website",
+      "url": "https://duncanhart.com/",
+      "name": "Duncan Hart",
+      "author": { "@id": "https://duncanhart.com/#person" },
+      "publisher": { "@id": "https://duncanhart.com/#person" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://duncanhart.com/#person",
+      "url": "https://duncanhart.com/",
+      "name": "Duncan Hart",
+      "alternateName": "duncanhart",
+      "givenName": "Duncan",
+      "familyName": "Hart",
+      "description": "Duncan Hart is a cybersecurity-minded technologist and system thinker from the UK, now based in Melbourne. Trained in information security at Royal Holloway's renowned ISG, he spends his time [building / breaking / writing about] [thing], and can usually be found posting on Mastodon or pushing commits to GitHub.",
+      "disambiguatingDescription": "Cybersecurity-minded technologist and system thinker.",
+      "jobTitle": "Smart, interesting and fun",
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Security Engineer",
+        "occupationalCategory": "15-1212.00"
+      },
+      "worksFor": {
+        "@type": "Organization",
+        "name": "[Employer name]",
+        "url": "[https://employer.example/]"
+      },
+      "email": "[mailto:dah@duncanhart.com]",
+      "mainEntityOfPage": { "@id": "https://duncanhart.com/#website" },
+      "knowsLanguage": "en-GB",
+      "knowsAbout": [
+        {
+          "@type": "Thing",
+          "name": "Cybersecurity",
+          "sameAs": "https://en.wikipedia.org/wiki/Computer_security"
+        },
+        "cryptography",
+        "information security",
+        "application security",
+        "systems thinking"
+      ],
+      "nationality": {
+        "@type": "Country",
+        "name": "United Kingdom"
+      },
+      "homeLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Melbourne",
+          "addressRegion": "Victoria",
+          "addressCountry": "Australia"
+        }
+      },
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "url": "https://www.royalholloway.ac.uk/",
+        "name": "Royal Holloway, University of London",
+        "sameAs": [
+          "https://www.wikidata.org/wiki/Q1202039",
+          "https://en.wikipedia.org/wiki/Royal_Holloway,_University_of_London"
+        ]
+      },
+      "alumniOf": [
+        {
+          "@type": "CollegeOrUniversity",
+          "url": "https://www.royalholloway.ac.uk/research-and-education/departments-and-schools/information-security/",
+          "name": "Information Security Group, Royal Holloway, University of London",
+          "sameAs": [
+            "https://www.wikidata.org/wiki/Q86020597",
+            "https://en.wikipedia.org/wiki/Information_Security_Group"
+          ]
+        }
+      ],
+      "image": {
+        "@type": "ImageObject",
+        "@id": "",
+        "url": "",
+        "caption": "Duncan Hart",
+        "width": 1536,
+        "height": 1536
+      },
+      "sameAs": [
+        "https://micro.duncanhart.com",
+        "https://github.com/duncan-hart",
+        "https://www.linkedin.com/in/duncanhart/",
+        "https://mastodon.duncanhart.com/@duncanhart"
+      ]
+    }
+  ]
+}
