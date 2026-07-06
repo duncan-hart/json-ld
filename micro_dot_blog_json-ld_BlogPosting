@@ -1,0 +1,16 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https:\/\/micro.duncanhart.com\/2026\/07\/06\/i-am-thinking-about-something.html#post",
+  "mainEntityOfPage": "https:\/\/micro.duncanhart.com\/2026\/07\/06\/i-am-thinking-about-something.html",
+  
+  "datePublished": "2026-07-06T08:07:18\u002b01:00",
+  "dateModified": "2026-07-06T08:07:34\u002b01:00",
+  "url": "https:\/\/micro.duncanhart.com\/2026\/07\/06\/i-am-thinking-about-something.html",
+  "inLanguage": "en",
+  "isPartOf": { "@id": "https://micro.duncanhart.com/#blog" },
+  "author": { "@id": "https://www.duncanhart.com/#me" },
+  "publisher": { "@id": "https://www.duncanhart.com/#me" }
+}
+</script>
