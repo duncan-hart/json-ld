@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+ {
+   "@context": "https://schema.org",
+   "@graph": [
+     {
+       "@type": "Person",
+       "@id": "https://www.duncanhart.com/#me",
+       "name": "Duncan Hart",
+       "url": "https://www.duncanhart.com/",
+       "image": "https://avatars.micro.blog/avatars/2024/23/77573.jpg",
+       "sameAs": [
+         "https://orcid.org/0009-0007-1798-6303",
+         "https://isni.org/isni/0000000530517593",
+         "https://mastodon.duncanhart.com/@duncanhart",
+         "https://micro.blog/duncanhart"
+       ]
+     },
+     {
+       "@type": "Blog",
+       "@id": "https://micro.duncanhart.com/#blog",
+       "url": "https://micro.duncanhart.com/",
+       "name": "Duncan Hart's micro blog",
+       "description": "An alternative to social media — a quiet space to share thoughts.",
+       "inLanguage": "en",
+       "author": { "@id": "https://www.duncanhart.com/#me" },
+       "publisher": { "@id": "https://www.duncanhart.com/#me" }
+     } 
+   ]
+ }
+</script>
