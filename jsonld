@@ -3,16 +3,16 @@
   "@graph": [
     {
       "@type": "WebSite",
-      "@id": "https://duncanhart.com/#website",
-      "url": "https://duncanhart.com/",
+      "@id": "https://www.duncanhart.com/#website",
+      "url": "https://www.duncanhart.com/",
       "name": "Duncan Hart",
-      "author": { "@id": "https://duncanhart.com/#person" },
-      "publisher": { "@id": "https://duncanhart.com/#person" }
+      "author": { "@id": "https://www.duncanhart.com/#me" },
+      "publisher": { "@id": "https://www.duncanhart.com/#me" }
     },
     {
       "@type": "Person",
-      "@id": "https://duncanhart.com/#person",
-      "url": "https://duncanhart.com/",
+      "@id": "https://www.duncanhart.com/#person",
+      "url": "https://www.duncanhart.com/",
       "name": "Duncan Hart",
       "alternateName": "duncanhart",
       "givenName": "Duncan",
@@ -31,7 +31,7 @@
         "url": "[https://employer.example/]"
       },
       "email": "[mailto:dah@duncanhart.com]",
-      "mainEntityOfPage": { "@id": "https://duncanhart.com/#website" },
+      "mainEntityOfPage": { "@id": "https://www.duncanhart.com/#website" },
       "knowsLanguage": "en-GB",
       "knowsAbout": [
         {
